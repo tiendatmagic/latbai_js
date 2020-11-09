@@ -5,13 +5,21 @@ var array = [];
 
 function arrayy() {
 
-    array.push(math);
-    alert(array)
-    for (i = 1; i < 5; i++) {
+    
+    
+    
+
+
+    for (i = 1; i <= 5; i++) {
         math = Math.ceil(Math.random() * 5);
-        
+
         array.push(math);
         alert(array);
+
+
+
+        //
+        
     }
 }
 
