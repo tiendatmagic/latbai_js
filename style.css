@@ -103,3 +103,23 @@ body,html {
     border-radius: 20%;
     font-size: 2vh;
 }
+
+@media only screen and (min-width:800px){
+    #maingame .box {
+
+        width: 13vh;
+        height: 13vh;
+
+       
+    }
+}
+
+@media only screen and (min-width:1000px){
+    #maingame .box {
+
+        width: 16vh;
+        height: 16vh;
+
+       
+    }
+}
