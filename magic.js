@@ -86,6 +86,7 @@ function arrayy() {
 arrayy();
 
 document.getElementsByClassName("box")[0].addEventListener("click", function () {
+
     c += 1;
     d += 2 * 1;
     if (c === 1) {
@@ -98,7 +99,10 @@ document.getElementsByClassName("box")[0].addEventListener("click", function () 
 
     }
 
-
+    if (d === 2 * 1 * 2) {
+        c = 0;
+        d = 0;
+    }
 
 
     checkk();
@@ -118,6 +122,10 @@ document.getElementsByClassName("box")[10].addEventListener("click", function ()
 
     }
 
+    if (d === 2 * 11 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 
@@ -135,6 +143,11 @@ document.getElementsByClassName("box")[1].addEventListener("click", function () 
         check2 = document.getElementsByClassName("box")[1].style.backgroundImage;
 
     }
+
+    if (d === 2 * 2 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 });
@@ -149,6 +162,11 @@ document.getElementsByClassName("box")[2].addEventListener("click", function () 
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[2].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 3 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -165,6 +183,11 @@ document.getElementsByClassName("box")[3].addEventListener("click", function () 
         check2 = document.getElementsByClassName("box")[3].style.backgroundImage;
 
     }
+
+    if (d === 2 * 4 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 });
@@ -179,6 +202,11 @@ document.getElementsByClassName("box")[4].addEventListener("click", function () 
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[4].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 5 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -196,6 +224,11 @@ document.getElementsByClassName("box")[5].addEventListener("click", function () 
         check2 = document.getElementsByClassName("box")[5].style.backgroundImage;
 
     }
+
+    if (d === 2 * 6 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 });
@@ -211,6 +244,11 @@ document.getElementsByClassName("box")[6].addEventListener("click", function () 
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[6].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 7 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -228,6 +266,11 @@ document.getElementsByClassName("box")[7].addEventListener("click", function () 
         check2 = document.getElementsByClassName("box")[7].style.backgroundImage;
 
     }
+
+    if (d === 2 * 8 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 });
@@ -244,6 +287,11 @@ document.getElementsByClassName("box")[8].addEventListener("click", function () 
         check2 = document.getElementsByClassName("box")[8].style.backgroundImage;
 
     }
+
+    if (d === 2 * 9 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 });
@@ -259,6 +307,11 @@ document.getElementsByClassName("box")[9].addEventListener("click", function () 
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[9].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 10 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -280,6 +333,11 @@ document.getElementsByClassName("box")[11].addEventListener("click", function ()
         check2 = document.getElementsByClassName("box")[11].style.backgroundImage;
 
     }
+
+    if (d === 2 * 12 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 
@@ -298,6 +356,11 @@ document.getElementsByClassName("box")[12].addEventListener("click", function ()
         check2 = document.getElementsByClassName("box")[12].style.backgroundImage;
 
     }
+
+    if (d === 2 * 13 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 
@@ -315,6 +378,11 @@ document.getElementsByClassName("box")[13].addEventListener("click", function ()
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[13].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 14 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -335,6 +403,11 @@ document.getElementsByClassName("box")[14].addEventListener("click", function ()
 
     }
 
+    if (d === 2 * 15 * 2) {
+        c = 0;
+        d = 0;
+    }
+
     checkk();
 
 
@@ -352,6 +425,11 @@ document.getElementsByClassName("box")[15].addEventListener("click", function ()
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[15].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 16 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -372,6 +450,10 @@ document.getElementsByClassName("box")[16].addEventListener("click", function ()
 
     }
 
+    if (d === 2 * 17 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 
@@ -389,6 +471,11 @@ document.getElementsByClassName("box")[17].addEventListener("click", function ()
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[17].style.backgroundImage;
 
+    }
+
+    if (d === 2 * 18 * 2) {
+        c = 0;
+        d = 0;
     }
     checkk();
 
@@ -408,6 +495,11 @@ document.getElementsByClassName("box")[18].addEventListener("click", function ()
         check2 = document.getElementsByClassName("box")[18].style.backgroundImage;
 
     }
+
+    if (d === 2 * 19 * 2) {
+        c = 0;
+        d = 0;
+    }
     checkk();
 
 
@@ -425,7 +517,10 @@ document.getElementsByClassName("box")[19].addEventListener("click", function ()
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[19].style.backgroundImage;
     }
-
+    if (d === 2 * 20 * 2) {
+        c = 0;
+        d = 0;
+    }
 
     checkk();
 
@@ -439,26 +534,7 @@ function checkk() {
         // check1 = "";
         // check2 = "";
     }
-    if (check1 === check2 && c === 2 && d != 2 * 1 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 2 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 3 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 4 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 5 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 6 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 7 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 8 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 9 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 10 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 11 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 12 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 13 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 14 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 15 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 16 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 17 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 18 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 19 * 2 ||
-        check1 === check2 && c === 2 && d != 2 * 20 * 2
+    if (check1 === check2 && c === 2
     ) {
         check1 = "";
         check2 = "";
