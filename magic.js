@@ -57,8 +57,20 @@ function checkCookie() {
 //
 
 
+document.getElementsByClassName("time")[0].innerText = "Thời gian chơi: " + time;
 
 
+document.getElementsByClassName("fasttime")[0].innerText = "Thời gian nhanh nhất: " + fasttime;
+
+document.getElementsByClassName("btn-start")[0].addEventListener("click",function(){
+    document.getElementById("maingame").style.display='flex';
+    this.style.display='none';
+    arrayy();
+});
+
+document.getElementsByClassName("btn-end")[0].addEventListener("click",function() {
+    location.reload();
+});
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 function shuffle(array) {
@@ -158,22 +170,6 @@ document.getElementsByClassName("back")[arrr.indexOf(0)].classList.add('wordpres
 document.getElementsByClassName("front")[arrr.indexOf(0)].classList.add('wordpress');
 document.getElementsByClassName("box")[arrr.indexOf(0)].classList.add('wordpress'); 
 //
-
-
-document.getElementsByClassName("time")[0].innerText = "Thời gian chơi: " + time;
-
-
-document.getElementsByClassName("fasttime")[0].innerText = "Thời gian nhanh nhất: " + fasttime;
-
-document.getElementsByClassName("btn-start")[0].addEventListener("click",function(){
-    document.getElementById("maingame").style.display='flex';
-    this.style.display='none';
-    arrayy();
-});
-
-document.getElementsByClassName("btn-end")[0].addEventListener("click",function() {
-    location.reload();
-});
 
 function arrayy() {
     timeplay = setInterval(function () {
@@ -670,8 +666,6 @@ function checkk() {
     if (c > 2) {
         c = 0;
         d = 0;
-        // check1 = "";
-        // check2 = "";
     }
     if (check1 === check2 && c === 2) {
 
@@ -755,4 +749,3 @@ function savefasttime() {
         clearInterval(timeplay);
     }
 }
-
