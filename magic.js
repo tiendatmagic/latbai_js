@@ -6,6 +6,8 @@ var d = 0;
 var a1 = 0;
 var s1 = "";
 var s2 = "";
+var score = 0;
+var time = 0;
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 function shuffle(array) {
@@ -30,82 +32,103 @@ function arrayy() {
     document.getElementsByClassName("back")[arrr.indexOf(1)].style.backgroundImage = "url('./img/css3-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(1)].classList.add('css');
     document.getElementsByClassName("front")[arrr.indexOf(1)].classList.add('css');
+    document.getElementsByClassName("box")[arrr.indexOf(1)].classList.add('css');
 
     document.getElementsByClassName("back")[arrr.indexOf(2)].style.backgroundImage = "url('./img/css3-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(2)].classList.add('css');
     document.getElementsByClassName("front")[arrr.indexOf(2)].classList.add('css');
+    document.getElementsByClassName("box")[arrr.indexOf(2)].classList.add('css');
 
     document.getElementsByClassName("back")[arrr.indexOf(3)].style.backgroundImage = "url('./img/jquery-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(3)].classList.add('jquery');
     document.getElementsByClassName("front")[arrr.indexOf(3)].classList.add('jquery');
+    document.getElementsByClassName("box")[arrr.indexOf(3)].classList.add('jquery');
 
     document.getElementsByClassName("back")[arrr.indexOf(4)].style.backgroundImage = "url('./img/jquery-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(4)].classList.add('jquery');
     document.getElementsByClassName("front")[arrr.indexOf(4)].classList.add('jquery');
+    document.getElementsByClassName("box")[arrr.indexOf(4)].classList.add('jquery');
 
     document.getElementsByClassName("back")[arrr.indexOf(5)].style.backgroundImage = "url('./img/nodejs-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(5)].classList.add('nodejs');
     document.getElementsByClassName("front")[arrr.indexOf(5)].classList.add('nodejs');
+    document.getElementsByClassName("box")[arrr.indexOf(5)].classList.add('nodejs');
 
     document.getElementsByClassName("back")[arrr.indexOf(6)].style.backgroundImage = "url('./img/nodejs-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(6)].classList.add('nodejs');
     document.getElementsByClassName("front")[arrr.indexOf(6)].classList.add('nodejs');
+    document.getElementsByClassName("box")[arrr.indexOf(6)].classList.add('nodejs');
 
     document.getElementsByClassName("back")[arrr.indexOf(7)].style.backgroundImage = "url('./img/js-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(7)].classList.add('js');
     document.getElementsByClassName("front")[arrr.indexOf(7)].classList.add('js');
+    document.getElementsByClassName("box")[arrr.indexOf(7)].classList.add('js');
 
     document.getElementsByClassName("back")[arrr.indexOf(8)].style.backgroundImage = "url('./img/js-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(8)].classList.add('js');
     document.getElementsByClassName("front")[arrr.indexOf(8)].classList.add('js');
+    document.getElementsByClassName("box")[arrr.indexOf(8)].classList.add('js');
 
     document.getElementsByClassName("back")[arrr.indexOf(9)].style.backgroundImage = "url('./img/photoshop-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(9)].classList.add('photoshop');
     document.getElementsByClassName("front")[arrr.indexOf(9)].classList.add('photoshop');
+    document.getElementsByClassName("box")[arrr.indexOf(9)].classList.add('photoshop');
 
     document.getElementsByClassName("back")[arrr.indexOf(10)].style.backgroundImage = "url('./img/photoshop-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(10)].classList.add('photoshop');
     document.getElementsByClassName("front")[arrr.indexOf(10)].classList.add('photoshop');
+    document.getElementsByClassName("box")[arrr.indexOf(10)].classList.add('photoshop');
 
     document.getElementsByClassName("back")[arrr.indexOf(11)].style.backgroundImage = "url('./img/php-logo_1.png')";
     document.getElementsByClassName("back")[arrr.indexOf(11)].classList.add('php');
     document.getElementsByClassName("front")[arrr.indexOf(11)].classList.add('php');
+    document.getElementsByClassName("box")[arrr.indexOf(11)].classList.add('php');
 
     document.getElementsByClassName("back")[arrr.indexOf(12)].style.backgroundImage = "url('./img/php-logo_1.png')";
     document.getElementsByClassName("back")[arrr.indexOf(12)].classList.add('php');
     document.getElementsByClassName("front")[arrr.indexOf(12)].classList.add('php');
+    document.getElementsByClassName("box")[arrr.indexOf(12)].classList.add('php');
 
     document.getElementsByClassName("back")[arrr.indexOf(13)].style.backgroundImage = "url('./img/rails-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(13)].classList.add('rails');
     document.getElementsByClassName("front")[arrr.indexOf(13)].classList.add('rails');
+    document.getElementsByClassName("box")[arrr.indexOf(13)].classList.add('rails');
 
     document.getElementsByClassName("back")[arrr.indexOf(14)].style.backgroundImage = "url('./img/rails-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(14)].classList.add('rails');
     document.getElementsByClassName("front")[arrr.indexOf(14)].classList.add('rails');
+    document.getElementsByClassName("box")[arrr.indexOf(14)].classList.add('rails');
 
     document.getElementsByClassName("back")[arrr.indexOf(15)].style.backgroundImage = "url('./img/sass-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(15)].classList.add('sass');
     document.getElementsByClassName("front")[arrr.indexOf(15)].classList.add('sass');
+    document.getElementsByClassName("box")[arrr.indexOf(15)].classList.add('sass');
+
 
     document.getElementsByClassName("back")[arrr.indexOf(16)].style.backgroundImage = "url('./img/sass-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(16)].classList.add('sass');
     document.getElementsByClassName("front")[arrr.indexOf(16)].classList.add('sass');
+    document.getElementsByClassName("box")[arrr.indexOf(16)].classList.add('sass');
 
     document.getElementsByClassName("back")[arrr.indexOf(17)].style.backgroundImage = "url('./img/sublime-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(17)].classList.add('sublime');
     document.getElementsByClassName("front")[arrr.indexOf(17)].classList.add('sublime');
+    document.getElementsByClassName("box")[arrr.indexOf(17)].classList.add('sublime');
 
     document.getElementsByClassName("back")[arrr.indexOf(18)].style.backgroundImage = "url('./img/sublime-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(18)].classList.add('sublime');
     document.getElementsByClassName("front")[arrr.indexOf(18)].classList.add('sublime');
+    document.getElementsByClassName("box")[arrr.indexOf(18)].classList.add('sublime');
 
     document.getElementsByClassName("back")[arrr.indexOf(19)].style.backgroundImage = "url('./img/wordpress-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(19)].classList.add('wordpress');
     document.getElementsByClassName("front")[arrr.indexOf(19)].classList.add('wordpress');
+    document.getElementsByClassName("box")[arrr.indexOf(19)].classList.add('wordpress');
 
     document.getElementsByClassName("back")[arrr.indexOf(0)].style.backgroundImage = "url('./img/wordpress-logo.png')";
     document.getElementsByClassName("back")[arrr.indexOf(0)].classList.add('wordpress');
     document.getElementsByClassName("front")[arrr.indexOf(0)].classList.add('wordpress');
+    document.getElementsByClassName("box")[arrr.indexOf(0)].classList.add('wordpress');
 
 }
 arrayy();
@@ -113,7 +136,7 @@ document.getElementsByClassName("box")[0].addEventListener("click", function () 
 
     c += 1;
     d += 2 * 1;
-    s1 = 0;
+
     if (c === 1) {
         check1 = document.getElementsByClassName("back")[0].style.backgroundImage;
 
@@ -727,8 +750,126 @@ document.getElementsByClassName("box")[19].addEventListener("click", function ()
 });
 
 
-document.getElementsByClassName("css")[0].addEventListener("click", function () {
-    alert("CSS");
+document.getElementsByClassName("front css")[0].addEventListener("click", function () {
+
+    s1 = "css";
+
+});
+
+
+
+document.getElementsByClassName("front css")[1].addEventListener("click", function () {
+
+    s2 = "css";
+    //   alert("S2");
+});
+
+document.getElementsByClassName("front jquery")[0].addEventListener("click", function () {
+
+    s1 = "jquery";
+
+});
+
+document.getElementsByClassName("front jquery")[1].addEventListener("click", function () {
+
+    s2 = "jquery";
+
+});
+
+document.getElementsByClassName("front js")[0].addEventListener("click", function () {
+
+    s1 = "js";
+
+});
+
+document.getElementsByClassName("front js")[1].addEventListener("click", function () {
+
+    s2 = "js";
+
+});
+
+document.getElementsByClassName("front nodejs")[0].addEventListener("click", function () {
+
+    s1 = "nodejs";
+
+});
+
+document.getElementsByClassName("front nodejs")[1].addEventListener("click", function () {
+
+    s2 = "nodejs";
+
+});
+
+document.getElementsByClassName("front photoshop")[0].addEventListener("click", function () {
+
+    s1 = "photoshop";
+
+});
+
+document.getElementsByClassName("front photoshop")[1].addEventListener("click", function () {
+
+    s2 = "photoshop";
+
+});
+
+document.getElementsByClassName("front php")[0].addEventListener("click", function () {
+
+    s1 = "php";
+
+});
+
+document.getElementsByClassName("front php")[1].addEventListener("click", function () {
+
+    s2 = "php";
+
+});
+
+document.getElementsByClassName("front rails")[0].addEventListener("click", function () {
+
+    s1 = "rails";
+
+});
+
+document.getElementsByClassName("front rails")[1].addEventListener("click", function () {
+
+    s2 = "rails";
+
+});
+
+document.getElementsByClassName("front sass")[0].addEventListener("click", function () {
+
+    s1 = "sass";
+
+});
+
+document.getElementsByClassName("front sass")[1].addEventListener("click", function () {
+
+    s2 = "sass";
+
+});
+
+document.getElementsByClassName("front sublime")[0].addEventListener("click", function () {
+
+    s1 = "sublime";
+
+});
+
+document.getElementsByClassName("front sublime")[1].addEventListener("click", function () {
+
+    s2 = "sublime";
+
+});
+
+document.getElementsByClassName("front wordpress")[0].addEventListener("click", function () {
+
+    s1 = "wordpress";
+
+});
+
+document.getElementsByClassName("front wordpress")[1].addEventListener("click", function () {
+
+    s2 = "wordpress";
+
 });
 
 function checkk() {
@@ -743,11 +884,72 @@ function checkk() {
         alert(check1);
         check1 = "";
         check2 = "";
-        alert("Đúng rồi");
+        // alert("Đúng rồi");
         c = 0;
         d = 0;
 
-        //  if (document.getElementsByClassName)
+
+        if (s1 === s2 && s1 === "css") {
+
+            document.getElementsByClassName("box css")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box css")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "jquery") {
+
+            document.getElementsByClassName("box jquery")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box jquery")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "js") {
+
+            document.getElementsByClassName("box js")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box js")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "nodejs") {
+
+            document.getElementsByClassName("box nodejs")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box nodejs")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "php") {
+
+            document.getElementsByClassName("box php")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box php")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "photoshop") {
+
+            document.getElementsByClassName("box photoshop")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box photoshop")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "rails") {
+
+            document.getElementsByClassName("box rails")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box rails")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "sass") {
+
+            document.getElementsByClassName("box sass")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box sass")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "sublime") {
+
+            document.getElementsByClassName("box sublime")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box sublime")[1].style.visibility = 'hidden';
+        }
+
+        if (s1 === s2 && s1 === "wordpress") {
+
+            document.getElementsByClassName("box wordpress")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box wordpress")[1].style.visibility = 'hidden';
+        }
+
+
     }
 
 }
