@@ -86,6 +86,8 @@ function shuffle(array) {
 }
 arrr = shuffle(aaa);
 //alert(arrr);   
+
+
 //
 document.getElementsByClassName("back")[arrr.indexOf(1)].style.backgroundImage = "url('./img/css3-logo.png')";
 document.getElementsByClassName("back")[arrr.indexOf(1)].classList.add('css');
@@ -167,8 +169,8 @@ document.getElementsByClassName("back")[arrr.indexOf(0)].style.backgroundImage =
 document.getElementsByClassName("back")[arrr.indexOf(0)].classList.add('wordpress');
 document.getElementsByClassName("front")[arrr.indexOf(0)].classList.add('wordpress');
 document.getElementsByClassName("box")[arrr.indexOf(0)].classList.add('wordpress'); 
-
 //
+
 function arrayy() {
     timeplay = setInterval(function () {
         document.getElementsByClassName("time")[0].innerText = "Thời gian chơi: " + time;
