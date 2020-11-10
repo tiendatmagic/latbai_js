@@ -6,7 +6,14 @@ var a1 = 0;
 var s1 = "";
 var s2 = "";
 var score = 0;
+var highscore =0;
 var time = 0;
+
+
+document.getElementsByClassName("score")[0].innerText="Điểm: " + score;
+
+
+document.getElementsByClassName("highscore")[0].innerText="Điểm cao nhất: " + highscore;
 for(var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 function shuffle(array) {
