@@ -6,7 +6,6 @@ var d = 0;
 var a1 = 0;
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
-// http://stackoverflow.com/questions/962802#962890
 function shuffle(array) {
     var tmp, current, top = array.length;
     if (top) while (--top) {
@@ -53,31 +52,6 @@ function arrayy() {
 
     document.getElementsByClassName("box")[arrr.indexOf(19)].style.backgroundImage = "url('./img/wordpress-logo.png')";
     document.getElementsByClassName("box")[arrr.indexOf(0)].style.backgroundImage = "url('./img/wordpress-logo.png')";
-
-
-    // document.getElementsByClassName("box")[aaa[0]].style.backgroundImage = "url('./img/css3-logo.png')";
-    // document.getElementsByClassName("box")[aaa[1]].style.backgroundImage = "url('./img/jquery-logo.png')";
-    // document.getElementsByClassName("box")[aaa[2]].style.backgroundImage = "url('./img/nodejs-logo.png')";
-    // document.getElementsByClassName("box")[aaa[3]].style.backgroundImage = "url('./img/js-logo.png')";
-    // document.getElementsByClassName("box")[aaa[4]].style.backgroundImage = "url('./img/photoshop-logo.png')";
-    // document.getElementsByClassName("box")[aaa[5]].style.backgroundImage = "url('./img/php-logo_1.png')";
-    // document.getElementsByClassName("box")[aaa[6]].style.backgroundImage = "url('./img/rails-logo.png')";
-    // document.getElementsByClassName("box")[aaa[7]].style.backgroundImage = "url('./img/sass-logo.png')";
-    // document.getElementsByClassName("box")[aaa[8]].style.backgroundImage = "url('./img/sublime-logo.png')";
-    // document.getElementsByClassName("box")[aaa[9]].style.backgroundImage = "url('./img/wordpress-logo.png')";
-
-    // document.getElementsByClassName("box")[aaa[10]].style.backgroundImage = "url('./img/css3-logo.png')";
-    // document.getElementsByClassName("box")[aaa[11]].style.backgroundImage = "url('./img/jquery-logo.png')";
-    // document.getElementsByClassName("box")[aaa[12]].style.backgroundImage = "url('./img/nodejs-logo.png')";
-    // document.getElementsByClassName("box")[aaa[13]].style.backgroundImage = "url('./img/js-logo.png')";
-    // document.getElementsByClassName("box")[aaa[14]].style.backgroundImage = "url('./img/photoshop-logo.png')";
-    // document.getElementsByClassName("box")[aaa[15]].style.backgroundImage = "url('./img/php-logo_1.png')";
-    // document.getElementsByClassName("box")[aaa[16]].style.backgroundImage = "url('./img/rails-logo.png')";
-    // document.getElementsByClassName("box")[aaa[17]].style.backgroundImage = "url('./img/sass-logo.png')";
-    // document.getElementsByClassName("box")[aaa[18]].style.backgroundImage = "url('./img/sublime-logo.png')";
-    // document.getElementsByClassName("box")[aaa[19]].style.backgroundImage = "url('./img/wordpress-logo.png')";
-    //document.body.style.backgroundImage = "url('img_tree.png')";
-
 }
 
 
