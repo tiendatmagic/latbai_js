@@ -1,6 +1,7 @@
 
 var check1 = "";
-var check2 ="";
+var check2 = "";
+var c = 0;
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 // http://stackoverflow.com/questions/962802#962890
@@ -15,7 +16,7 @@ function shuffle(array) {
     return array;
 }
 
-arrr = shuffle(aaa);
+arrr = (aaa);
 //alert(arrr);   
 
 
@@ -52,9 +53,39 @@ function arrayy() {
 
 arrayy();
 
-document.getElementsByClassName("box")[0].addEventListener("click", function() {
-   check1 = document.getElementsByClassName("box")[arrr[0]].style.backgroundImage;
+document.getElementsByClassName("box")[0].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[0]].style.backgroundImage;
+
+    }
+    checkk();
+
 });
+
+document.getElementsByClassName("box")[10].addEventListener("click", function () {
+
+    c += 1;
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[10]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+function checkk() {
+    if (c > 2) {
+        c = 0;
+    }
+    if (check1 === check2 && c === 2) {
+        alert("Đúng rồi");
+        c = 0;
+    }
+}
+
+
 
 
 
