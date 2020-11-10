@@ -71,6 +71,10 @@ document.getElementsByClassName("btn-start")[0].addEventListener("click",functio
 document.getElementsByClassName("btn-end")[0].addEventListener("click",function() {
     location.reload();
 });
+
+document.getElementsByClassName("btn-reload")[0].addEventListener("click",function() {
+    location.reload();
+});
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 function shuffle(array) {
@@ -737,6 +741,9 @@ function checkk() {
 }
 
 function savefasttime() {
+    document.getElementsByClassName("modal")[0].style.display='block';
+    document.getElementsByClassName("time")[1].innerText="Thời gian của bạn: " + time;
+    clearInterval(timeplay);
     if (time < fasttime) {
         fasttime = time;
         document.getElementsByClassName("fasttime")[0].innerText = "Điểm: " + fasttime;
@@ -748,6 +755,6 @@ function savefasttime() {
 
         }
         document.getElementsByClassName("fasttime")[0].innerHTML = "Điểm cao nhất:" + fasttime;
-        clearInterval(timeplay);
+        
     }
 }
