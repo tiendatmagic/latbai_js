@@ -21,15 +21,15 @@ body,html {
 }
 
 #maingame {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 #maingame .box {
-    margin: 10px;
-    width: 130px;
-    height: 130px;
+    margin: 0.5vh;
+    width: 11vh;
+    height: 11vh;
     background-color: blue;
     border-radius: 30px;
     background-size: cover;
@@ -56,8 +56,25 @@ body,html {
     display: none;
 }
 
+
+#mainstart {
+    text-align: center;
+}
+
+.btn-start {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    padding: 5vw;
+    background-color: rgb(41, 255, 58);
+    outline: 0;
+    border: 0;
+    font-size: 5vw;
+    border-radius: 36%;
+}
+
 #scr {
-    margin-bottom: 120px;
+    margin-bottom: 12vh;
 }
 
 #scr .time {
@@ -80,7 +97,7 @@ body,html {
     position: absolute;
     top: 3.8vh;
     right: 0;
-    padding: 5vh;
+    padding: 2vh;
     background-color: red;
     border: 0;
     border-radius: 20%;

@@ -55,11 +55,17 @@ function checkCookie() {
 }
 
 //
+
+
 document.getElementsByClassName("time")[0].innerText = "Thời gian chơi: " + time;
 
 
 document.getElementsByClassName("fasttime")[0].innerText = "Thời gian nhanh nhất: " + fasttime;
 
+document.getElementsByClassName("btn-start")[0].addEventListener("click",function(){
+    document.getElementById("maingame").style.display='flex';
+    this.style.display='none';
+});
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 function shuffle(array) {
