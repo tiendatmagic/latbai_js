@@ -25,7 +25,7 @@ arrr = shuffle(aaa);
 
 function arrayy() {
 
-    
+
     document.getElementsByClassName("box")[arrr.indexOf(1)].style.backgroundImage = "url('./img/css3-logo.png')";
     document.getElementsByClassName("box")[arrr.indexOf(2)].style.backgroundImage = "url('./img/css3-logo.png')";
     document.getElementsByClassName("box")[arrr.indexOf(3)].style.backgroundImage = "url('./img/jquery-logo.png')";
@@ -459,7 +459,7 @@ function checkk() {
         check1 === check2 && c === 2 && d != 2 * 18 * 2 ||
         check1 === check2 && c === 2 && d != 2 * 19 * 2 ||
         check1 === check2 && c === 2 && d != 2 * 20 * 2
-    )  {
+    ) {
         check1 = "";
         check2 = "";
         alert("Đúng rồi");
