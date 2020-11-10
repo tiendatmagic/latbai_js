@@ -2,6 +2,7 @@
 var check1 = "";
 var check2 = "";
 var c = 0;
+var d = 0;
 for (var aaa = [], i = 0; i < 20; ++i) aaa[i] = i;
 
 // http://stackoverflow.com/questions/962802#962890
@@ -55,10 +56,18 @@ arrayy();
 
 document.getElementsByClassName("box")[0].addEventListener("click", function () {
     c += 1;
+    
     if (c === 1) {
         check1 = document.getElementsByClassName("box")[arrr[0]].style.backgroundImage;
-
+       
     }
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[0]].style.backgroundImage;
+      
+    }
+
+
     checkk();
 
 });
@@ -66,8 +75,233 @@ document.getElementsByClassName("box")[0].addEventListener("click", function () 
 document.getElementsByClassName("box")[10].addEventListener("click", function () {
 
     c += 1;
+
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[10]].style.backgroundImage;
+        
+    }
     if (c === 2) {
         check2 = document.getElementsByClassName("box")[arrr[10]].style.backgroundImage;
+        
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[1].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[1]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[2].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[2]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[3].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[3]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[4].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[4]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[5].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[5]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[6].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[6]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[7].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[7]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[8].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[8]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+document.getElementsByClassName("box")[9].addEventListener("click", function () {
+    c += 1;
+    if (c === 1) {
+        check1 = document.getElementsByClassName("box")[arrr[9]].style.backgroundImage;
+
+    }
+    checkk();
+
+});
+
+
+
+
+document.getElementsByClassName("box")[11].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[11]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[12].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[12]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[13].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[13]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[14].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[14]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[15].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[15]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[16].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[16]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[17].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[17]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[18].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[18]].style.backgroundImage;
+    }
+
+    checkk();
+
+
+});
+
+document.getElementsByClassName("box")[19].addEventListener("click", function () {
+
+    c += 1;
+
+
+    if (c === 2) {
+        check2 = document.getElementsByClassName("box")[arrr[19]].style.backgroundImage;
     }
 
     checkk();
@@ -78,8 +312,12 @@ document.getElementsByClassName("box")[10].addEventListener("click", function ()
 function checkk() {
     if (c > 2) {
         c = 0;
+        // check1 = "";
+        // check2 = "";
     }
     if (check1 === check2 && c === 2) {
+        check1 = "";
+        check2 = "";
         alert("Đúng rồi");
         c = 0;
     }
