@@ -35,7 +35,7 @@ body,html {
     border-radius: 30px;
     background-size: cover;
     position: relative;
-   
+   overflow: hidden;
 }
 .box .front{
     position: absolute;
@@ -56,7 +56,6 @@ body,html {
     background-size: cover;
     display: none;
 }
-
 
 #mainstart {
     text-align: center;
