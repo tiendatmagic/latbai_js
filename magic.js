@@ -663,7 +663,7 @@ document.getElementsByClassName("front wordpress")[1].addEventListener("click", 
 });
 
 function checkk() {
-    if (c > 2) {
+    if (check1 !== check2 && c >= 2)  {
         c = 0;
         d = 0;
         // check1 = "";
