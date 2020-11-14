@@ -133,11 +133,11 @@ document.getElementsByClassName("back")[arrr.indexOf(10)].style.backgroundImage 
 document.getElementsByClassName("back")[arrr.indexOf(10)].classList.add('angular');
 document.getElementsByClassName("front")[arrr.indexOf(10)].classList.add('angular');
 document.getElementsByClassName("box")[arrr.indexOf(10)].classList.add('angular');
-document.getElementsByClassName("back")[arrr.indexOf(11)].style.backgroundImage = "url('./img/php-logo_1.png')";
+document.getElementsByClassName("back")[arrr.indexOf(11)].style.backgroundImage = "url('./img/php.png')";
 document.getElementsByClassName("back")[arrr.indexOf(11)].classList.add('php');
 document.getElementsByClassName("front")[arrr.indexOf(11)].classList.add('php');
 document.getElementsByClassName("box")[arrr.indexOf(11)].classList.add('php');
-document.getElementsByClassName("back")[arrr.indexOf(12)].style.backgroundImage = "url('./img/php-logo_1.png')";
+document.getElementsByClassName("back")[arrr.indexOf(12)].style.backgroundImage = "url('./img/php.png')";
 document.getElementsByClassName("back")[arrr.indexOf(12)].classList.add('php');
 document.getElementsByClassName("front")[arrr.indexOf(12)].classList.add('php');
 document.getElementsByClassName("box")[arrr.indexOf(12)].classList.add('php');
@@ -149,11 +149,11 @@ document.getElementsByClassName("back")[arrr.indexOf(14)].style.backgroundImage 
 document.getElementsByClassName("back")[arrr.indexOf(14)].classList.add('python');
 document.getElementsByClassName("front")[arrr.indexOf(14)].classList.add('python');
 document.getElementsByClassName("box")[arrr.indexOf(14)].classList.add('python');
-document.getElementsByClassName("back")[arrr.indexOf(15)].style.backgroundImage = "url('./img/sass-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(15)].style.backgroundImage = "url('./img/sass.png')";
 document.getElementsByClassName("back")[arrr.indexOf(15)].classList.add('sass');
 document.getElementsByClassName("front")[arrr.indexOf(15)].classList.add('sass');
 document.getElementsByClassName("box")[arrr.indexOf(15)].classList.add('sass');
-document.getElementsByClassName("back")[arrr.indexOf(16)].style.backgroundImage = "url('./img/sass-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(16)].style.backgroundImage = "url('./img/sass.png')";
 document.getElementsByClassName("back")[arrr.indexOf(16)].classList.add('sass');
 document.getElementsByClassName("front")[arrr.indexOf(16)].classList.add('sass');
 document.getElementsByClassName("box")[arrr.indexOf(16)].classList.add('sass');
