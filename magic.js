@@ -93,11 +93,11 @@ arrr = shuffle(aaa);
 
 
 //
-document.getElementsByClassName("back")[arrr.indexOf(1)].style.backgroundImage = "url('./img/css3-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(1)].style.backgroundImage = "url('./img/css.png')";
 document.getElementsByClassName("back")[arrr.indexOf(1)].classList.add('css');
 document.getElementsByClassName("front")[arrr.indexOf(1)].classList.add('css');
 document.getElementsByClassName("box")[arrr.indexOf(1)].classList.add('css');
-document.getElementsByClassName("back")[arrr.indexOf(2)].style.backgroundImage = "url('./img/css3-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(2)].style.backgroundImage = "url('./img/css.png')";
 document.getElementsByClassName("back")[arrr.indexOf(2)].classList.add('css');
 document.getElementsByClassName("front")[arrr.indexOf(2)].classList.add('css');
 document.getElementsByClassName("box")[arrr.indexOf(2)].classList.add('css');
@@ -109,30 +109,30 @@ document.getElementsByClassName("back")[arrr.indexOf(4)].style.backgroundImage =
 document.getElementsByClassName("back")[arrr.indexOf(4)].classList.add('jquery');
 document.getElementsByClassName("front")[arrr.indexOf(4)].classList.add('jquery');
 document.getElementsByClassName("box")[arrr.indexOf(4)].classList.add('jquery');
-document.getElementsByClassName("back")[arrr.indexOf(5)].style.backgroundImage = "url('./img/nodejs-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(5)].style.backgroundImage = "url('./img/nodejs.png')";
 document.getElementsByClassName("back")[arrr.indexOf(5)].classList.add('nodejs');
 document.getElementsByClassName("front")[arrr.indexOf(5)].classList.add('nodejs');
 document.getElementsByClassName("box")[arrr.indexOf(5)].classList.add('nodejs');
-document.getElementsByClassName("back")[arrr.indexOf(6)].style.backgroundImage = "url('./img/nodejs-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(6)].style.backgroundImage = "url('./img/nodejs.png')";
 document.getElementsByClassName("back")[arrr.indexOf(6)].classList.add('nodejs');
 document.getElementsByClassName("front")[arrr.indexOf(6)].classList.add('nodejs');
 document.getElementsByClassName("box")[arrr.indexOf(6)].classList.add('nodejs');
-document.getElementsByClassName("back")[arrr.indexOf(7)].style.backgroundImage = "url('./img/js-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(7)].style.backgroundImage = "url('./img/js.png')";
 document.getElementsByClassName("back")[arrr.indexOf(7)].classList.add('js');
 document.getElementsByClassName("front")[arrr.indexOf(7)].classList.add('js');
 document.getElementsByClassName("box")[arrr.indexOf(7)].classList.add('js');
-document.getElementsByClassName("back")[arrr.indexOf(8)].style.backgroundImage = "url('./img/js-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(8)].style.backgroundImage = "url('./img/js.png')";
 document.getElementsByClassName("back")[arrr.indexOf(8)].classList.add('js');
 document.getElementsByClassName("front")[arrr.indexOf(8)].classList.add('js');
 document.getElementsByClassName("box")[arrr.indexOf(8)].classList.add('js');
-document.getElementsByClassName("back")[arrr.indexOf(9)].style.backgroundImage = "url('./img/photoshop-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(9)].classList.add('photoshop');
-document.getElementsByClassName("front")[arrr.indexOf(9)].classList.add('photoshop');
-document.getElementsByClassName("box")[arrr.indexOf(9)].classList.add('photoshop');
-document.getElementsByClassName("back")[arrr.indexOf(10)].style.backgroundImage = "url('./img/photoshop-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(10)].classList.add('photoshop');
-document.getElementsByClassName("front")[arrr.indexOf(10)].classList.add('photoshop');
-document.getElementsByClassName("box")[arrr.indexOf(10)].classList.add('photoshop');
+document.getElementsByClassName("back")[arrr.indexOf(9)].style.backgroundImage = "url('./img/angular.png')";
+document.getElementsByClassName("back")[arrr.indexOf(9)].classList.add('angular');
+document.getElementsByClassName("front")[arrr.indexOf(9)].classList.add('angular');
+document.getElementsByClassName("box")[arrr.indexOf(9)].classList.add('angular');
+document.getElementsByClassName("back")[arrr.indexOf(10)].style.backgroundImage = "url('./img/angular.png')";
+document.getElementsByClassName("back")[arrr.indexOf(10)].classList.add('angular');
+document.getElementsByClassName("front")[arrr.indexOf(10)].classList.add('angular');
+document.getElementsByClassName("box")[arrr.indexOf(10)].classList.add('angular');
 document.getElementsByClassName("back")[arrr.indexOf(11)].style.backgroundImage = "url('./img/php-logo_1.png')";
 document.getElementsByClassName("back")[arrr.indexOf(11)].classList.add('php');
 document.getElementsByClassName("front")[arrr.indexOf(11)].classList.add('php');
@@ -141,14 +141,14 @@ document.getElementsByClassName("back")[arrr.indexOf(12)].style.backgroundImage 
 document.getElementsByClassName("back")[arrr.indexOf(12)].classList.add('php');
 document.getElementsByClassName("front")[arrr.indexOf(12)].classList.add('php');
 document.getElementsByClassName("box")[arrr.indexOf(12)].classList.add('php');
-document.getElementsByClassName("back")[arrr.indexOf(13)].style.backgroundImage = "url('./img/rails-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(13)].classList.add('rails');
-document.getElementsByClassName("front")[arrr.indexOf(13)].classList.add('rails');
-document.getElementsByClassName("box")[arrr.indexOf(13)].classList.add('rails');
-document.getElementsByClassName("back")[arrr.indexOf(14)].style.backgroundImage = "url('./img/rails-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(14)].classList.add('rails');
-document.getElementsByClassName("front")[arrr.indexOf(14)].classList.add('rails');
-document.getElementsByClassName("box")[arrr.indexOf(14)].classList.add('rails');
+document.getElementsByClassName("back")[arrr.indexOf(13)].style.backgroundImage = "url('./img/python.png')";
+document.getElementsByClassName("back")[arrr.indexOf(13)].classList.add('python');
+document.getElementsByClassName("front")[arrr.indexOf(13)].classList.add('python');
+document.getElementsByClassName("box")[arrr.indexOf(13)].classList.add('python');
+document.getElementsByClassName("back")[arrr.indexOf(14)].style.backgroundImage = "url('./img/python.png')";
+document.getElementsByClassName("back")[arrr.indexOf(14)].classList.add('python');
+document.getElementsByClassName("front")[arrr.indexOf(14)].classList.add('python');
+document.getElementsByClassName("box")[arrr.indexOf(14)].classList.add('python');
 document.getElementsByClassName("back")[arrr.indexOf(15)].style.backgroundImage = "url('./img/sass-logo.png')";
 document.getElementsByClassName("back")[arrr.indexOf(15)].classList.add('sass');
 document.getElementsByClassName("front")[arrr.indexOf(15)].classList.add('sass');
@@ -157,22 +157,22 @@ document.getElementsByClassName("back")[arrr.indexOf(16)].style.backgroundImage 
 document.getElementsByClassName("back")[arrr.indexOf(16)].classList.add('sass');
 document.getElementsByClassName("front")[arrr.indexOf(16)].classList.add('sass');
 document.getElementsByClassName("box")[arrr.indexOf(16)].classList.add('sass');
-document.getElementsByClassName("back")[arrr.indexOf(17)].style.backgroundImage = "url('./img/sublime-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(17)].classList.add('sublime');
-document.getElementsByClassName("front")[arrr.indexOf(17)].classList.add('sublime');
-document.getElementsByClassName("box")[arrr.indexOf(17)].classList.add('sublime');
-document.getElementsByClassName("back")[arrr.indexOf(18)].style.backgroundImage = "url('./img/sublime-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(18)].classList.add('sublime');
-document.getElementsByClassName("front")[arrr.indexOf(18)].classList.add('sublime');
-document.getElementsByClassName("box")[arrr.indexOf(18)].classList.add('sublime');
-document.getElementsByClassName("back")[arrr.indexOf(19)].style.backgroundImage = "url('./img/wordpress-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(19)].classList.add('wordpress');
-document.getElementsByClassName("front")[arrr.indexOf(19)].classList.add('wordpress');
-document.getElementsByClassName("box")[arrr.indexOf(19)].classList.add('wordpress');
-document.getElementsByClassName("back")[arrr.indexOf(0)].style.backgroundImage = "url('./img/wordpress-logo.png')";
-document.getElementsByClassName("back")[arrr.indexOf(0)].classList.add('wordpress');
-document.getElementsByClassName("front")[arrr.indexOf(0)].classList.add('wordpress');
-document.getElementsByClassName("box")[arrr.indexOf(0)].classList.add('wordpress'); 
+document.getElementsByClassName("back")[arrr.indexOf(17)].style.backgroundImage = "url('./img/html.png')";
+document.getElementsByClassName("back")[arrr.indexOf(17)].classList.add('html');
+document.getElementsByClassName("front")[arrr.indexOf(17)].classList.add('html');
+document.getElementsByClassName("box")[arrr.indexOf(17)].classList.add('html');
+document.getElementsByClassName("back")[arrr.indexOf(18)].style.backgroundImage = "url('./img/html.png')";
+document.getElementsByClassName("back")[arrr.indexOf(18)].classList.add('html');
+document.getElementsByClassName("front")[arrr.indexOf(18)].classList.add('html');
+document.getElementsByClassName("box")[arrr.indexOf(18)].classList.add('html');
+document.getElementsByClassName("back")[arrr.indexOf(19)].style.backgroundImage = "url('./img/reactjs.png')";
+document.getElementsByClassName("back")[arrr.indexOf(19)].classList.add('reactjs');
+document.getElementsByClassName("front")[arrr.indexOf(19)].classList.add('reactjs');
+document.getElementsByClassName("box")[arrr.indexOf(19)].classList.add('reactjs');
+document.getElementsByClassName("back")[arrr.indexOf(0)].style.backgroundImage = "url('./img/reactjs.png')";
+document.getElementsByClassName("back")[arrr.indexOf(0)].classList.add('reactjs');
+document.getElementsByClassName("front")[arrr.indexOf(0)].classList.add('reactjs');
+document.getElementsByClassName("box")[arrr.indexOf(0)].classList.add('reactjs'); 
 //
 
 function arrayy() {
@@ -629,11 +629,11 @@ document.getElementsByClassName("front nodejs")[0].addEventListener("click", fun
 document.getElementsByClassName("front nodejs")[1].addEventListener("click", function () {
     s2 = "nodejs";
 });
-document.getElementsByClassName("front photoshop")[0].addEventListener("click", function () {
-    s1 = "photoshop";
+document.getElementsByClassName("front angular")[0].addEventListener("click", function () {
+    s1 = "angular";
 });
-document.getElementsByClassName("front photoshop")[1].addEventListener("click", function () {
-    s2 = "photoshop";
+document.getElementsByClassName("front angular")[1].addEventListener("click", function () {
+    s2 = "angular";
 });
 document.getElementsByClassName("front php")[0].addEventListener("click", function () {
     s1 = "php";
@@ -641,11 +641,11 @@ document.getElementsByClassName("front php")[0].addEventListener("click", functi
 document.getElementsByClassName("front php")[1].addEventListener("click", function () {
     s2 = "php";
 });
-document.getElementsByClassName("front rails")[0].addEventListener("click", function () {
-    s1 = "rails";
+document.getElementsByClassName("front python")[0].addEventListener("click", function () {
+    s1 = "python";
 });
-document.getElementsByClassName("front rails")[1].addEventListener("click", function () {
-    s2 = "rails";
+document.getElementsByClassName("front python")[1].addEventListener("click", function () {
+    s2 = "python";
 });
 document.getElementsByClassName("front sass")[0].addEventListener("click", function () {
     s1 = "sass";
@@ -653,17 +653,17 @@ document.getElementsByClassName("front sass")[0].addEventListener("click", funct
 document.getElementsByClassName("front sass")[1].addEventListener("click", function () {
     s2 = "sass";
 });
-document.getElementsByClassName("front sublime")[0].addEventListener("click", function () {
-    s1 = "sublime";
+document.getElementsByClassName("front html")[0].addEventListener("click", function () {
+    s1 = "html";
 });
-document.getElementsByClassName("front sublime")[1].addEventListener("click", function () {
-    s2 = "sublime";
+document.getElementsByClassName("front html")[1].addEventListener("click", function () {
+    s2 = "html";
 });
-document.getElementsByClassName("front wordpress")[0].addEventListener("click", function () {
-    s1 = "wordpress";
+document.getElementsByClassName("front reactjs")[0].addEventListener("click", function () {
+    s1 = "reactjs";
 });
-document.getElementsByClassName("front wordpress")[1].addEventListener("click", function () {
-    s2 = "wordpress";
+document.getElementsByClassName("front reactjs")[1].addEventListener("click", function () {
+    s2 = "reactjs";
 });
 
 function checkk() {
@@ -705,14 +705,14 @@ function checkk() {
             document.getElementsByClassName("box php")[1].style.visibility = 'hidden';
             score += 1;
         }
-        if (s1 === s2 && s1 === "photoshop") {
-            document.getElementsByClassName("box photoshop")[0].style.visibility = 'hidden';
-            document.getElementsByClassName("box photoshop")[1].style.visibility = 'hidden';
+        if (s1 === s2 && s1 === "angular") {
+            document.getElementsByClassName("box angular")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box angular")[1].style.visibility = 'hidden';
             score += 1;
         }
-        if (s1 === s2 && s1 === "rails") {
-            document.getElementsByClassName("box rails")[0].style.visibility = 'hidden';
-            document.getElementsByClassName("box rails")[1].style.visibility = 'hidden';
+        if (s1 === s2 && s1 === "python") {
+            document.getElementsByClassName("box python")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box python")[1].style.visibility = 'hidden';
             score += 1;
         }
         if (s1 === s2 && s1 === "sass") {
@@ -720,14 +720,14 @@ function checkk() {
             document.getElementsByClassName("box sass")[1].style.visibility = 'hidden';
             score += 1;
         }
-        if (s1 === s2 && s1 === "sublime") {
-            document.getElementsByClassName("box sublime")[0].style.visibility = 'hidden';
-            document.getElementsByClassName("box sublime")[1].style.visibility = 'hidden';
+        if (s1 === s2 && s1 === "html") {
+            document.getElementsByClassName("box html")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box html")[1].style.visibility = 'hidden';
             score += 1;
         }
-        if (s1 === s2 && s1 === "wordpress") {
-            document.getElementsByClassName("box wordpress")[0].style.visibility = 'hidden';
-            document.getElementsByClassName("box wordpress")[1].style.visibility = 'hidden';
+        if (s1 === s2 && s1 === "reactjs") {
+            document.getElementsByClassName("box reactjs")[0].style.visibility = 'hidden';
+            document.getElementsByClassName("box reactjs")[1].style.visibility = 'hidden';
             score += 1;
         }
 
