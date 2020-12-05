@@ -101,11 +101,11 @@ document.getElementsByClassName("back")[arrr.indexOf(2)].style.backgroundImage =
 document.getElementsByClassName("back")[arrr.indexOf(2)].classList.add('css');
 document.getElementsByClassName("front")[arrr.indexOf(2)].classList.add('css');
 document.getElementsByClassName("box")[arrr.indexOf(2)].classList.add('css');
-document.getElementsByClassName("back")[arrr.indexOf(3)].style.backgroundImage = "url('./img/jquery-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(3)].style.backgroundImage = "url('./img/jquery.png')";
 document.getElementsByClassName("back")[arrr.indexOf(3)].classList.add('jquery');
 document.getElementsByClassName("front")[arrr.indexOf(3)].classList.add('jquery');
 document.getElementsByClassName("box")[arrr.indexOf(3)].classList.add('jquery');
-document.getElementsByClassName("back")[arrr.indexOf(4)].style.backgroundImage = "url('./img/jquery-logo.png')";
+document.getElementsByClassName("back")[arrr.indexOf(4)].style.backgroundImage = "url('./img/jquery.png')";
 document.getElementsByClassName("back")[arrr.indexOf(4)].classList.add('jquery');
 document.getElementsByClassName("front")[arrr.indexOf(4)].classList.add('jquery');
 document.getElementsByClassName("box")[arrr.indexOf(4)].classList.add('jquery');

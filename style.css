@@ -37,6 +37,9 @@ body,html {
     position: relative;
    overflow: hidden;
 }
+.box {
+    cursor: pointer;
+}
 .box .front{
     position: absolute;
     top: 0;
