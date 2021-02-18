@@ -6,54 +6,17 @@ var a1 = 0;
 var s1 = "";
 var s2 = "";
 var score = 0;
-var fasttime = 99999;
 var time = 0;
 var timeplay;
 var bac = document.getElementsByClassName("back");
 var fron = document.getElementsByClassName("front");
 var boxx = document.getElementsByClassName("box")
 
-function setCookie(hihihi, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000000);
-    var expires = "expires=" + d.toGMTString();
-    document.cookie = hihihi + "=" + cvalue + ";" + expires + ";path=/";
+var fasttime = JSON.parse(localStorage.getItem("fasttime"));
+if (fasttime === null) {
+    fasttime = 99999;
 }
 
-function getCookie(hihihi) {
-    var name = hihihi + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(";");
-    for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == " ") {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-function checkCookie() {
-    var ffasttime = getCookie("ffasttime");
-    if (ffasttime != "") {
-        fasttime = Number(ffasttime);
-    } else {
-        if (ffasttime != null) {
-            setCookie("ffasttime", ffasttime, 30);
-        }
-    }
-    document.getElementsByClassName("fasttime")[0].innerText = "Thời gian nhanh nhất: " + fasttime;
-    var ffasttime = getCookie("ffasttime");
-    ffasttime = fasttime;
-    if (ffasttime != null) {
-        setCookie("ffasttime", ffasttime, 30);
-    }
-    document.getElementsByClassName("fasttime")[0].innerText = "Thời gian nhanh nhất: " + fasttime;
-}
-//
 document.getElementsByClassName("time")[0].innerText = "Thời gian chơi: " + time;
 document.getElementsByClassName("fasttime")[0].innerText = "Thời gian nhanh nhất: " + fasttime;
 document.getElementsByClassName("btn-start")[0].addEventListener("click", function () {
@@ -83,8 +46,7 @@ function shuffle(array) {
     return array;
 }
 arrr = shuffle(aaa);
-//alert(arrr);
-//
+
 bac[arrr.indexOf(1)].style.backgroundImage = "url('./img/css.png')";
 bac[arrr.indexOf(1)].classList.add("css");
 fron[arrr.indexOf(1)].classList.add("css");
@@ -165,7 +127,6 @@ bac[arrr.indexOf(0)].style.backgroundImage = "url('./img/reactjs.png')";
 bac[arrr.indexOf(0)].classList.add("reactjs");
 fron[arrr.indexOf(0)].classList.add("reactjs");
 boxx[arrr.indexOf(0)].classList.add("reactjs");
-//
 function arrayy() {
     timeplay = setInterval(function () {
         document.getElementsByClassName("time")[0].innerText = "Thời gian chơi: " + time;
@@ -728,11 +689,10 @@ function savefasttime() {
         fasttime = time;
         document.getElementsByClassName("fasttime")[0].innerText = "Điểm: " + fasttime;
         document.getElementsByClassName("fasttime")[0].innerHTML = "Điểm cao nhất:" + fasttime;
-        var ffasttime = getCookie("ffasttime");
-        ffasttime = fasttime;
-        if (ffasttime != null) {
-            setCookie("ffasttime", ffasttime, 30);
-        }
+
+        localStorage.setItem("fasttime", JSON.stringify(fasttime));
+
+
         document.getElementsByClassName("fasttime")[0].innerHTML = "Điểm cao nhất:" + fasttime;
     }
 }
